@@ -19,4 +19,4 @@ Firewall fonctionnel et VM sécurisé
 
 ### Topologie
 
-![](.\img\part2\network.png)
+![](./img/part2/network.png)
