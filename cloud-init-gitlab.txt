@@ -1,0 +1,9 @@
+#cloud-config
+package_upgrade: true
+runcmd:
+  - sudo apt update
+  - sudo apt upgrade -y
+  - sudo reboot
+  - curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  - sudo EXTERNAL_URL="http://gitlab.linuxtechi.net" apt install gitlab-ce
+  
